@@ -1,16 +1,40 @@
-# movie_app
 
-A new Flutter project.
+# The Movie DB App
 
-## Getting Started
+Este projeto foi feito como teste técnico para empresa Espresso que era necessário buscar da API da The Movie DB uma lista de filmes, séries e também criar listas para favoritas seus conteúdos. Assim como ser possível fazer autenticação com login e senha na plataforma.
 
-This project is a starting point for a Flutter application.
+Alguns dos plugins utilizados:
 
-A few resources to get you started if this is your first Flutter project:
+- Cached Network Image
+- Dio
+- Flutter bloc
+- Screen Util
+- Shared Preferences
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Projeto feito utilizando o Clean Arch, seguindo toda a estrutura dentro da /lib como também dentro dos testes. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+# Screenshots
+
+| Login Screen  | Home Screen (Movie Tab) |
+| ------------- | ------------- |
+| ![Alt-Text-1](https://i.imgur.com/KwyFjge.png)   | ![Alt-Text-1](https://i.imgur.com/fmzge3t.png)   |
+
+| Home Screen (TV Tab)  | Detail Screen (TV Show) |
+| ------------- | ------------- |
+| ![Alt Text](https://i.imgur.com/kBDaxQr.png) | ![Alt Text](https://i.imgur.com/sSVlJ2d.png)   |
+
+
+| Detail Screen (Movie)  | Detail Screen (Add to list) |
+| ------------- | ------------- |
+| ![Alt Text](https://i.imgur.com/ViXBTXs.png) | ![Alt Text](https://i.imgur.com/UeaRc5U.png) |
+| ------------- | ------------- |
+
+| Favorite List Tab  | Favorite List Detailed |
+| ------------- | ------------- |
+| ![Alt Text](https://i.imgur.com/3NKFhuS.png) | ![Alt Text](https://i.imgur.com/Ntpsk3X.png) |
+| ------------- | ------------- |
+
+| Add to list if already exist a list  | Edit list name |
+| ------------- | ------------- |
+| ![Alt Text](https://i.imgur.com/vWN7vFs.png) | ![Alt Text](https://i.imgur.com/LbvoIyj.png) |
+| ------------- | ------------- |
