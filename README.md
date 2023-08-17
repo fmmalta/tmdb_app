@@ -27,14 +27,12 @@ Projeto feito utilizando o Clean Arch, seguindo toda a estrutura dentro da /lib 
 | Detail Screen (Movie)  | Detail Screen (Add to list) |
 | ------------- | ------------- |
 | ![Alt Text](https://i.imgur.com/ViXBTXs.png) | ![Alt Text](https://i.imgur.com/UeaRc5U.png) |
-| ------------- | ------------- |
 
 | Favorite List Tab  | Favorite List Detailed |
 | ------------- | ------------- |
 | ![Alt Text](https://i.imgur.com/3NKFhuS.png) | ![Alt Text](https://i.imgur.com/Ntpsk3X.png) |
-| ------------- | ------------- |
+
 
 | Add to list if already exist a list  | Edit list name |
 | ------------- | ------------- |
 | ![Alt Text](https://i.imgur.com/vWN7vFs.png) | ![Alt Text](https://i.imgur.com/LbvoIyj.png) |
-| ------------- | ------------- |
