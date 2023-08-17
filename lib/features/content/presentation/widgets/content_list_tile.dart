@@ -1,7 +1,7 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 
 class ContentListTile extends StatelessWidget {
   final void Function() onTap;

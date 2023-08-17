@@ -8,7 +8,7 @@ import 'dart:async' as _i4;
 import 'package:dartz/dartz.dart' as _i2;
 import 'package:mockito/mockito.dart' as _i1;
 import 'package:movie_app/core/failure.dart' as _i5;
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart'
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart'
     as _i7;
 import 'package:movie_app/features/list/domain/entities/favorite_list_entity.dart'
     as _i6;

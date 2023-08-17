@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/detail/domain/entities/tv_show_detail_entity.dart';
 
 TVShowDetailModel detailTvShowEntityFromJson(String str) =>

@@ -1,6 +1,6 @@
 import 'package:dartz/dartz.dart';
 import 'package:movie_app/core/failure.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/list/data/datasources/favorite_list_data_source.dart';
 import 'package:movie_app/features/list/domain/entities/favorite_list_entity.dart';
 import 'package:movie_app/features/list/domain/repositories/favorite_list_repository.dart';

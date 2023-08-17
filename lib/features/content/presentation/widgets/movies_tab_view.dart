@@ -8,7 +8,7 @@ import 'package:movie_app/features/content/presentation/bloc/movie_bloc/movie_cu
 import 'package:movie_app/features/content/presentation/widgets/content_view_builder.dart';
 import 'package:movie_app/features/content/presentation/widgets/news_content_headline.dart';
 import 'package:movie_app/features/content/presentation/widgets/search_content_widget.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 
 class MoviesTabView extends StatefulWidget {
   const MoviesTabView({super.key});

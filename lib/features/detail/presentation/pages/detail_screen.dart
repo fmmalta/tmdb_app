@@ -4,7 +4,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:movie_app/core/failure.dart';
 import 'package:movie_app/core/widgets/alert_widget.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/detail/presentation/cubit/detail_cubit.dart';
 import 'package:movie_app/features/detail/presentation/widgets/add_content_to_list.dart';
 import 'package:movie_app/features/detail/presentation/widgets/detail_content_overview.dart';

@@ -7,7 +7,7 @@ import 'package:movie_app/core/failure.dart';
 
 import 'package:movie_app/features/detail/data/datasources/tvshow/tvshow_detail_remote_data_source.dart';
 import 'package:movie_app/features/detail/data/repositories/tvshow/tvshow_remote_detail_repository_impl.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/detail/domain/entities/tv_show_detail_entity.dart';
 import 'package:movie_app/features/detail/domain/repositories/tvshow_detail_repository/tvshow_remote_detail_repository.dart';
 

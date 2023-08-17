@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
 import 'package:movie_app/core/failure.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/detail/domain/usecases/movie/get_local_movie_detail_use_case.dart';
 import 'package:movie_app/features/detail/domain/usecases/movie/get_remote_movie_detail_use_case.dart';
 import 'package:movie_app/features/detail/domain/usecases/movie/store_movie_detail_use_case.dart';

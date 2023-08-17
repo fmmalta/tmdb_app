@@ -1,5 +1,5 @@
 import 'dart:convert';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/list/data/models/favorite_list_model.dart';
 import 'package:movie_app/features/list/domain/entities/favorite_list_entity.dart';
 import 'package:shared_preferences/shared_preferences.dart';

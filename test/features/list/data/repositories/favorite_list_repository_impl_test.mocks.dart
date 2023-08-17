@@ -6,7 +6,7 @@
 import 'dart:async' as _i5;
 
 import 'package:mockito/mockito.dart' as _i1;
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart'
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart'
     as _i6;
 import 'package:movie_app/features/list/data/datasources/favorite_list_data_source.dart'
     as _i3;

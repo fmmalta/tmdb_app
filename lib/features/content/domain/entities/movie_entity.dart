@@ -1,4 +1,4 @@
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 
 class MovieEntity extends Content {
   final int id;

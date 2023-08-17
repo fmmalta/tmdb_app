@@ -2,7 +2,7 @@ import 'dart:async';
 
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/list/domain/entities/favorite_list_entity.dart';
 import 'package:movie_app/features/list/domain/usecases/add_content_to_list_use_case.dart';
 import 'package:movie_app/features/list/domain/usecases/create_favorite_list_use_case.dart';

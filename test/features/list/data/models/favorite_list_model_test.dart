@@ -1,7 +1,7 @@
 import 'package:flutter_test/flutter_test.dart';
 import 'package:movie_app/features/content/data/models/movie_model.dart';
 import 'package:movie_app/features/content/data/models/tvshows_model.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/list/data/models/favorite_list_model.dart';
 
 void main() {

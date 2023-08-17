@@ -1,4 +1,4 @@
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/detail/domain/entities/moviel_detail_entity.dart';
 import 'package:movie_app/features/detail/domain/entities/tv_show_detail_entity.dart';
 import 'package:movie_app/features/list/domain/entities/favorite_list_entity.dart';

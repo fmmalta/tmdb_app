@@ -8,7 +8,7 @@ import 'package:movie_app/core/failure.dart';
 import 'package:mockito/mockito.dart';
 import 'package:movie_app/features/detail/data/datasources/movie/movie_detail_remote_data_source.dart';
 import 'package:movie_app/features/detail/data/repositories/movie/movie_detail_remote_repository_impl.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 import 'package:movie_app/features/detail/domain/entities/moviel_detail_entity.dart';
 import 'package:movie_app/features/detail/domain/repositories/movie_detail_repository/movie_detail_remote_repository.dart';
 

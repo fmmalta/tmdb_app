@@ -1,5 +1,5 @@
 import 'package:movie_app/features/content/domain/entities/movie_entity.dart';
-import 'package:movie_app/features/detail/domain/entities/movie_detail_interface.dart';
+import 'package:movie_app/features/detail/domain/entities/content_interface.dart';
 
 class MovieModel extends MovieEntity {
   final int id;
