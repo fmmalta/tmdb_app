@@ -7,7 +7,7 @@ Alguns dos plugins utilizados:
 
 - Cached Network Image
 - Dio
-- Flutter bloc
+- Flutter Bloc
 - Screen Util
 - Shared Preferences
 
@@ -36,3 +36,7 @@ Projeto feito utilizando o Clean Arch, seguindo toda a estrutura dentro da /lib 
 | Add to list if already exist a list  | Edit list name |
 | ------------- | ------------- |
 | ![Alt Text](https://i.imgur.com/vWN7vFs.png) | ![Alt Text](https://i.imgur.com/LbvoIyj.png) |
+
+| Deleting a list  | Deleting an item inside a list |
+| ------------- | ------------- |
+| ![Alt Text](https://i.imgur.com/YaPxoPu.png) | ![Alt Text](https://i.imgur.com/Ecb6xSi.png) |
