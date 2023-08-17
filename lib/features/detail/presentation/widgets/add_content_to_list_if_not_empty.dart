@@ -22,15 +22,6 @@ class AddContentToListIfNotEmpty extends StatelessWidget {
             return Column(
               mainAxisSize: MainAxisSize.min,
               children: [
-                Container(
-                  margin: EdgeInsets.symmetric(vertical: 10.h),
-                  decoration: BoxDecoration(
-                    color: const Color(0xFF938F99),
-                    borderRadius: BorderRadius.circular(30),
-                  ),
-                  height: 4.h,
-                  width: 32.w,
-                ),
                 Text(
                   "Adicionar à lista",
                   style: TextStyle(fontSize: 22.sp, color: Colors.white),

@@ -43,7 +43,7 @@ class _DetailScreenState extends State<DetailScreen> {
                   firstChild: const SizedBox(),
                   secondChild: FloatingActionButton(
                     onPressed: () {
-                      showModalBottomSheet<void>(
+                      showModalBottomSheet(
                         context: context,
                         isScrollControlled: true,
                         builder: (_) => BlocProvider<FavoriteListBloc>.value(

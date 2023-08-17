@@ -3,11 +3,24 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:movie_app/features/list/presentation/bloc/favorite_list_bloc.dart';
 
-class CreateFavoriteListIfEmpty extends StatelessWidget {
-  CreateFavoriteListIfEmpty({super.key});
+class CreateFavoriteListIfEmpty extends StatefulWidget {
+  const CreateFavoriteListIfEmpty({super.key});
 
+  @override
+  State<CreateFavoriteListIfEmpty> createState() =>
+      _CreateFavoriteListIfEmptyState();
+}
+
+class _CreateFavoriteListIfEmptyState extends State<CreateFavoriteListIfEmpty> {
   final TextEditingController _titleController = TextEditingController();
-  final GlobalKey<FormState> _key = GlobalKey<FormState>();
+
+  late GlobalKey<FormState> _key;
+
+  @override
+  void initState() {
+    _key = GlobalKey<FormState>();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -17,15 +30,6 @@ class CreateFavoriteListIfEmpty extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         mainAxisSize: MainAxisSize.min,
         children: <Widget>[
-          Container(
-            margin: EdgeInsets.symmetric(vertical: 10.h),
-            decoration: BoxDecoration(
-              color: const Color(0xFF938F99),
-              borderRadius: BorderRadius.circular(30),
-            ),
-            height: 4.h,
-            width: 32.w,
-          ),
           Text(
             'Nova lista',
             style: TextStyle(fontSize: 22.sp, color: Colors.white),

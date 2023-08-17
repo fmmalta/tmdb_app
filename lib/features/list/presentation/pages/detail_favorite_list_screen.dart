@@ -31,6 +31,7 @@ class DetailFavoriteListScreen extends StatelessWidget {
             onPressed: () async {
               await showModalBottomSheet<bool>(
                 context: context,
+                isScrollControlled: true,
                 builder: (_) => BlocProvider.value(
                   value: BlocProvider.of<FavoriteListBloc>(context),
                   child: EditListName(contents.uuid),

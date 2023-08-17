@@ -22,7 +22,9 @@ class MyApp extends StatelessWidget {
           theme: ThemeData(
             primarySwatch: Colors.blue,
             bottomSheetTheme: const BottomSheetThemeData(
+              showDragHandle: true,
               backgroundColor: Color(0xFF0B2342),
+              dragHandleColor: Color(0xFF938F99),
               shape: RoundedRectangleBorder(
                 borderRadius: BorderRadius.all(Radius.circular(28)),
               ),

@@ -3,12 +3,24 @@ import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:movie_app/features/list/presentation/bloc/favorite_list_bloc.dart';
 
-class EditListName extends StatelessWidget {
+class EditListName extends StatefulWidget {
   final String listID;
-  EditListName(this.listID, {super.key});
+  const EditListName(this.listID, {super.key});
 
+  @override
+  State<EditListName> createState() => _EditListNameState();
+}
+
+class _EditListNameState extends State<EditListName> {
   final TextEditingController _titleController = TextEditingController();
-  final GlobalKey<FormState> _key = GlobalKey<FormState>();
+
+  late GlobalKey<FormState> _key;
+
+  @override
+  void initState() {
+    _key = GlobalKey<FormState>();
+    super.initState();
+  }
 
   @override
   Widget build(BuildContext context) {
@@ -24,15 +36,6 @@ class EditListName extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           mainAxisSize: MainAxisSize.min,
           children: <Widget>[
-            Container(
-              margin: EdgeInsets.symmetric(vertical: 10.h),
-              decoration: BoxDecoration(
-                color: const Color(0xFF938F99),
-                borderRadius: BorderRadius.circular(30),
-              ),
-              height: 4.h,
-              width: 32.w,
-            ),
             Text(
               'Editar nome lista',
               style: TextStyle(fontSize: 22.sp, color: Colors.white),
@@ -63,7 +66,7 @@ class EditListName extends StatelessWidget {
                     _key.currentState!.save();
                     context.read<FavoriteListBloc>().add(
                           EditListNameEvent(
-                            id: listID,
+                            id: widget.listID,
                             newTitle: _titleController.text,
                           ),
                         );

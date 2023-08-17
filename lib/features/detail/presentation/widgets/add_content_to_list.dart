@@ -40,7 +40,7 @@ class _AddContentToListState extends State<AddContentToList> {
                   ? CrossFadeState.showFirst
                   : CrossFadeState.showSecond,
               duration: const Duration(milliseconds: 200),
-              firstChild: CreateFavoriteListIfEmpty(),
+              firstChild: const CreateFavoriteListIfEmpty(),
               secondChild: AddContentToListIfNotEmpty(
                 content: widget.content,
                 createListOnPressed: () {
